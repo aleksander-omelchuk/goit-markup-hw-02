@@ -1,3 +1,86 @@
 body {
+  color: #757575;
+  background-color: #e5e5e5;
+  font-size: 14px;
+  line-height: 1.4;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* основний колір background хедер #212121; */
+/* другий колір  #757575; */
+/* білий колір текст #ffffff; */
+/* колір акцент background  #2196F3; */
+/* колір background main #E5E5E5; */
+/* колір background footer&header #2F303A */
+/* колір background наша команда #F5F4FA; */
+
+/* header */
+.page-header {
   background-color: #fff;
+  color: #000;
+}
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.span {
+  color: #2196f3;
+}
+.site-nav .link-nav {
+  color: #212121;
+  width: 500px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+.site-nav .link-nav:hover,
+.site-nav .link-nav:focus {
+  color: #2196f3;
+}
+.site-nav .link-nav:active {
+  color: #2196f3;
+}
+.contact .link-contact {
+  color: #757575;
+}
+.contact .link-contact:hover,
+.contact .link-contact:focus {
+  color: #2196f3;
+}
+.contact .link-contact:active {
+  color: #2196f3;
+
+  /* hero */
+}
+.hero {
+  background-color: #2f303a;
+}
+.page-hero {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 44px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.button {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
