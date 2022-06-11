@@ -26,8 +26,6 @@ body {
 }
 
 /* header */
-/* .page-header {
-} */
 .logo {
   font-family: var(--accent-font);
   font-weight: 700;
@@ -95,9 +93,6 @@ body {
   background-color: #188ce8;
 }
 /* section */
-
-/* .section {
-} */
 .section-team {
   background-color: #f5f4fa;
 }
