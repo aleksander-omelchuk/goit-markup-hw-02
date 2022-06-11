@@ -28,7 +28,6 @@ body {
 /* header */
 .logo {
   font-family: var(--accent-font);
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -133,7 +132,6 @@ body {
 }
 .logo-footer {
   font-family: var(--accent-font);
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
