@@ -120,14 +120,14 @@ body {
 .title-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--titel-color);
 }
 .title-name-trade {
   font-size: 16px;
-  line-height: 1.18px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -139,7 +139,7 @@ body {
   font-family: var(--accent-font);
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.9px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--main-background-color);
   text-decoration: none;
