@@ -1,9 +1,12 @@
 :root {
   --accent-color: #2196f3;
+  --accent-background-color: #188ce8;
+  --main-second-color: #000000;
   --main-background-color: #ffffff;
   --titel-color: #212121;
   --titel-text-color: #757575;
   --hero-background-color: #2f303a;
+  --btn-background-color: #f5f4fa;
   --main-font: "Roboto";
   --accent-font: "Raleway";
 }
@@ -14,6 +17,7 @@ body {
   background-color: var(--main-background-color);
   font-size: 14px;
   line-height: 1.4;
+  letter-spacing: 0.03em;
 }
 .link {
   list-style: none;
@@ -30,9 +34,7 @@ body {
   font-family: var(--accent-font);
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #000000;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: var(--main-second-color);
 }
 .span {
   color: var(--accent-color);
@@ -41,7 +43,7 @@ body {
 
 .link .link-nav {
   color: var(--titel-color);
-  width: 500px;
+  font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -51,7 +53,6 @@ body {
 }
 .link-nav.current {
   color: var(--accent-color);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .link-contact {
@@ -84,47 +85,41 @@ body {
   letter-spacing: 0.06em;
   color: var(--main-background-color);
   background-color: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
 }
 .button:hover {
-  background-color: #188ce8;
+  background-color: var(--accent-background-color);
 }
 /* section-team */
 .section-team {
-  background-color: #f5f4fa;
+  background-color: var(--btn-background-color);
 }
 .title {
   font-size: 36px;
   line-height: 1.16;
-  letter-spacing: 0.03em;
   color: var(--titel-color);
 }
 .subtitle {
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--titel-color);
 }
 .subtitle-text {
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 .title-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--titel-color);
 }
 .title-name-trade {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 /* footer */
 .footer {
@@ -134,7 +129,6 @@ body {
   font-family: var(--accent-font);
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--main-background-color);
   text-decoration: none;
 }
@@ -142,38 +136,37 @@ body {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--main-background-color);
 }
 .link-footer {
   text-decoration: none;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 /* page-2 */
 .btn {
-  background-color: #f5f4fa;
+  background-color: var(--btn-background-color);
   border-radius: 4px;
-  font-family: "Roboto";
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  letter-spacing: 0.03em;
   border-style: none;
   cursor: pointer;
 }
 .btn.all {
-  color: #ffffff;
-  background-color: #2196f3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: var(--main-background-color);
+  background-color: var(--accent-color);
   cursor: pointer;
 }
-.title-card {
+.btn:hover,
+.btn:focus {
+  color: var(--main-background-color);
+  background-color: var(--accent-color);
+}
+.btn .title-card {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -182,6 +175,5 @@ body {
 .title-card-name {
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
   color: var(--titel-text-color);
 }
