@@ -57,6 +57,7 @@ body {
 
 .link-contact {
   color: var(--titel-text-color);
+  font-weight: 500;
 }
 .link-contact:hover,
 .link-contact:focus {
@@ -166,7 +167,7 @@ body {
   color: var(--main-background-color);
   background-color: var(--accent-color);
 }
-.btn .title-card {
+.title-card {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
